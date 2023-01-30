@@ -16,7 +16,7 @@ const Contact = () => {
       </div>
     </div>
     <div>
-
+    <a href="https://wa.me/+573234787414?text=Hola%20estoy%20interesado%20en%20sus%20productos">Enviar mensaje en WhatsApp</a>
     </div>
     </section >
   )
