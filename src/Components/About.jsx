@@ -2,7 +2,7 @@ import React from 'react'
 import fotoPerfil from '../assets/logo-f.png'
 import noticia1 from '../assets/1logo-nav.png'
 import noticia2 from '../assets/Fondo-home.jpg'
-import noticia3 from '../assets/Fondo-perfil.jpg'
+import noticia3 from '../assets/Fondo-Perfil.jpg'
 import noticia4 from '../assets/logo-.jpeg'
 import noticia5 from '../assets/Fondo-perfil1.jpg'
 
