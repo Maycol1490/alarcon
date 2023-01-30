@@ -18,7 +18,7 @@
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.6.1",
     "react-whatsapp": "^0.3.0",
-    "vue-socials": "^2.0.1"
+    "vue-socials": "^2.0.0-0"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",
