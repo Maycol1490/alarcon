@@ -7,11 +7,11 @@ const Servicios = () => {
       <div className='servicios'>
         <div className="blog-card">
           <div className="meta">
-            <div className="photo"><i><FaCity /></i></div>
+            <div className="photo"><i><FaBalanceScale /></i></div>
           </div>
           <div className="description">
-            <h1>DERECHO PRIVADO</h1>
-            <p>Nuestra firma cuenta con amplia experiencia en resolver problemas jurídicos de naturaleza privada o civil, brindando acompañamiento, asesoría y representación en las distintas acciones que integran esta área del Derecho.</p>
+            <h1>DERECHO PENAL</h1>
+            <p>Alarcon & Abogados Asociados, se ha destacado por asumir defensas penales de manera diligente, seria y estudiosa buscando obtener el mayor beneficio a nuestros clientes y siendo un aliado fuerte en la garantía de los derechos humanos inherentes al procesado</p>
             <button class="learn-more">
               <span class="circle" aria-hidden="true">
                 <span class="icon arrow"></span>
@@ -37,11 +37,11 @@ const Servicios = () => {
         </div>
         <div className="blog-card">
           <div className="meta">
-            <div className="photo"><i><FaBalanceScale /></i></div>
+            <div className="photo"><i><FaCity /></i></div>
           </div>
           <div className="description">
-            <h1>DERECHO PENAL</h1>
-            <p>Alarcon & Abogados Asociados, se ha destacado por asumir defensas penales de manera diligente, seria y estudiosa buscando obtener el mayor beneficio a nuestros clientes y siendo un aliado fuerte en la garantía de los derechos humanos inherentes al procesado</p>
+            <h1>DERECHO PRIVADO</h1>
+            <p>Nuestra firma cuenta con amplia experiencia en resolver problemas jurídicos de naturaleza privada o civil, brindando acompañamiento, asesoría y representación en las distintas acciones que integran esta área del Derecho.</p>
             <button class="learn-more">
               <span class="circle" aria-hidden="true">
                 <span class="icon arrow"></span>
@@ -55,7 +55,7 @@ const Servicios = () => {
             <div className="photo"><i><FaHandshake /></i></div>
           </div>
           <div className="description">
-            <h1>Mastering the Language</h1>
+            <h1>DERECHO TRIBUTARIO</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
             <button class="learn-more">
               <span class="circle" aria-hidden="true">

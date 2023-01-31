@@ -20,6 +20,12 @@ li,
 a {
     list-style: none;
     text-decoration: none;
+    color: #000;
+}
+a:link, a:visited,  a:hover, a:active
+{
+    color: #000000;
+    text-decoration: none;
 }
 
 .header {
@@ -67,106 +73,6 @@ a {
 .nav a:hover {
     border-bottom: 5px solid var(--color1);
     cursor: pointer;
-}
-
-/* ! Home++++++++++++++++++++++++++++++++++++++++++++++ */
-
-.home {
-    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('./assets/Fondo-home.jpg');
-    background-size: 100% 100%;
-    width: 100%;
-    min-height: 100vh;
-    margin-top: 130px;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    text-align: center;
-}
-
-.descricion-home {
-    color: var(--color1);
-    font-size: 2rem;
-    width: 800px;
-    padding: 3rem;
-}
-
-.btn-home {
-    background-color: transparent;
-    border: 2px solid var(--color1);
-    border-radius: 20px;
-    color: var(--color1);
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: flex;
-    font-size: 16px;
-    margin-bottom: 50px;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-
-.btn-home:hover {
-    background-color: var(--color1);
-    color: var(--color4);
-}
-
-/* !Servicios-Home +++++++++++++++++++++++++++++++++++++++ */
-
-.servicios {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 2rem;
-    margin-bottom: 2rem;
-}
-
-.title-servicios {
-    border-bottom: 2px solid var(--color1);
-    margin-bottom: 2rem;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.ul-servicios {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 6rem;
-}
-
-.ul-servicios li {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 160px;
-    height: 200px;
-    background-color: #fff9;
-    box-shadow: .5em .5em .5em #0005;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-.ul-servicios li:hover {
-    border: 3px solid var(--color1);
-}
-
-.ul-servicios i {
-    font-size: 4rem;
-    color: var(--color1);
-    background-color: var(--color4);
-    align-items: center;
-    border-radius: 20px;
-    padding: .5rem;
-    margin-bottom: .5rem;
 }
 
 /* !Quienes Somos+++++++++++++++++++++++++++++++++++++++ */
@@ -332,8 +238,13 @@ a {
 }
 
 .titulo-contacto {
-    font-weight: 900;
+    font-family: var(--font-family2);
+    font-weight:bold;
     font-size: 2rem;
+    border-bottom: 3px solid var(--color1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-inf-contacto {
@@ -350,6 +261,18 @@ a {
     align-items: center;
     flex-wrap: wrap;
     gap: 3rem;
+    padding: 1rem;
+}
+.inf-contacto li,a{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+}
+.inf-contacto i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 1rem;
 }
 
