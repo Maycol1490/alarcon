@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/Footert.css'
 import { NavLink } from 'react-router-dom'
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import LogoSin from '../assets/1logo-nav.png'
