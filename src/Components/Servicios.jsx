@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/Servicios.css'
 import { FaBalanceScale, FaBriefcase, FaCity, FaHandshake } from "react-icons/fa"
 
 const Servicios = () => {
