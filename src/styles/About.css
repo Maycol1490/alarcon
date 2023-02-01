@@ -1,0 +1,151 @@
+/* !Quienes Somos+++++++++++++++++++++++++++++++++++++++ */
+.perfil {
+    margin-top: 130px;
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(0, 0, 0, .5), rgb(0, 0, 0, .5)), url('../assets/Fondo-perfil1.jpg');
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.descripcion-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: justify;
+    color: var(--color1);
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 80%;
+    height: 300px;
+}
+
+/* ! tarjeta ++++++++++++++++++++++++++++++++++++++++++++ */
+.card {
+    width: 80%;
+    background: #ffff;
+    box-shadow: 0 1px 25px rgba(0, 0, 0, 0.2);
+    padding: 12px 10px;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.card_load {
+    width: 370px;
+    background: linear-gradient(120deg, #e5e5e5 30%, #f0f0f0 38%, #f0f0f0 40%, #e5e5e5 48%);
+    border-radius: 50%;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    animation: load89234 2s infinite;
+}
+
+.card_load img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.card_load_extreme_title {
+    width: 590px;
+    border-radius: 5px;
+    background: linear-gradient(120deg, #e5e5e5 30%, #f0f0f0 38%, #f0f0f0 40%, #e5e5e5 48%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    animation: load89234 2s infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: var(--font-family2);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.card_load_extreme_descripion {
+    width: 590px;
+    border-radius: 5px;
+    background: linear-gradient(120deg, #e5e5e5 30%, #f0f0f0 38%, #f0f0f0 40%, #e5e5e5 48%);
+    margin-top: 10px;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    animation: load89234 2s infinite;
+}
+
+.card_load_extreme_descripion p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    font-family: var(--font-family1);
+    font-weight: 400;
+    font-size: 20px;
+    margin: 1rem;
+}
+
+@keyframes load89234 {
+    100% {
+        background-position: -100% 0;
+    }
+}
+/* !GALERIA ++++++++++++++++++++++++++++++++++++ */
+.noticias-perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subtitle-perfil{
+    font-family: var(--font-family2);
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 3px solid var(--color1);
+}
+.galeria-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 400px;
+}
+.galeria-perfil img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0px;
+    max-height: 400px;
+    flex-grow: 1;
+    object-fit: contain;
+    opacity: .8;
+    transition: .5s ease;
+    margin-top: 3rem;
+}
+.galeria-perfil img:hover{
+    cursor: crosshair;
+    width:100%;
+    opacity: 1;
+    filter: contrast(120%);
+}
+@media screen and (max-width :800px){
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card_load_extreme_title {
+        width: 100%;
+    }
+    .card_load_extreme_descripion {
+        width: 100%;
+    }
+    .galeria-perfil img:hover{
+        width: 100%;
+    }
+}
