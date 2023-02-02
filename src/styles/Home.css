@@ -1,20 +1,20 @@
 /* ! Home++++++++++++++++++++++++++++++++++++++++++++++ */
 
 .home {
-    background-image:url('../assets/fondo-3.jpg');
+    background-image:url('../assets/recurso-de-casacion-en-el-fondo.jpg');
     background-size: 100% 100%;
     width: 100%;
-    min-height: 50vh;
+    max-height: 100vh;
     margin-top: 130px;
     display: flex;
     flex-direction: column;
     justify-content: end;
-    align-items: center;
+    align-items: flex-end;
     text-align: center;
 }
 
 .descricion-home {
-    color: var(--color3);
+    color: var(--color4);
     font-size: 2rem;
     width: 800px;
     padding: 3rem;
@@ -22,7 +22,7 @@
 
 .btn-home {
     background-color: transparent;
-    border: 2px solid var(--color1);
+    border: 2px solid var(--color4);
     border-radius: 20px;
     color: var(--color1);
     padding: 16px 32px;
@@ -37,8 +37,8 @@
 }
 
 .btn-home:hover {
-    background-color: var(--color1);
-    color: var(--color4);
+    background-color: var(--color3);
+    color: var(--color1);
 }
 
 /* !Servicios-Home +++++++++++++++++++++++++++++++++++++++ */
@@ -51,12 +51,13 @@
     justify-content: center;
     padding: 2rem;
     margin-bottom: 2rem;
+    border-top: 4px var(--color3);
 }
 
 .title-servicios {
     border-bottom: 2px solid var(--color1);
     margin-bottom: 2rem;
-    color: black;
+    color:var(--color4);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,7 +86,7 @@
 }
 
 .ul-servicios li:hover {
-    border: 3px solid var(--color1);
+    border: 3px solid var(--color4);
 }
 
 .ul-servicios i {
