@@ -6,7 +6,7 @@
     height: 130px;
     position: fixed;
     z-index: 100;
-    background-color: #fff;
+    background-color:var(--color1);
     top: 0;
     padding: 0 2rem 0 2rem;
 
@@ -35,13 +35,13 @@ a {
 }
 
 .nav a {
-    color: var(--color1);
+    color: var(--color3);
     padding: 1rem;
     border-bottom: 5px solid transparent
 }
 
 .nav a:hover {
-    border-bottom: 5px solid var(--color1);
+    border-bottom: 5px solid var(--color3);
     cursor: pointer;
 }
 

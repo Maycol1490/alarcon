@@ -1,10 +1,10 @@
 /* ! Home++++++++++++++++++++++++++++++++++++++++++++++ */
 
 .home {
-    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('../assets/Fondo-home.jpg');
+    background-image:url('../assets/fondo-3.jpg');
     background-size: 100% 100%;
     width: 100%;
-    min-height: 100vh;
+    min-height: 50vh;
     margin-top: 130px;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@
 }
 
 .descricion-home {
-    color: var(--color1);
+    color: var(--color3);
     font-size: 2rem;
     width: 800px;
     padding: 3rem;
