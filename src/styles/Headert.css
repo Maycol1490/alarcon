@@ -65,7 +65,7 @@ a {
         align-items:flex-end;
         position: absolute;
         top: 130px;
-        left:50%;
+        left:100%;
         width:50%;
         height:100vh;
         z-index: 1000;
