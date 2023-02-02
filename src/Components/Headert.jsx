@@ -7,19 +7,20 @@ import { useState } from 'react';
 
 
 const Headert = () => {
-  const [nav, setnav] = useState(false)
+  const [navMobil, setnavMobil] = useState(false)
   
   
   const handleNav = () => {
-    setnav(true)
+    setnavMobil(!navMobil)
   }
+  console.log(navMobil);
 
   return (
     <header className='header'>
       <div className='imangen-logo'>
         <NavLink to='/Home'><img src={Logo} alt="Alarcon Y Asociados" /></NavLink>
       </div>
-      <nav className='nav'>
+      <nav className={navMobil ? 'nav-mobil':'nav'}>
         <ul>
           <li><NavLink to='/About'>Quines Somos</NavLink></li>
           <li><NavLink to='/Servicios'>Areas De Práctica</NavLink></li>

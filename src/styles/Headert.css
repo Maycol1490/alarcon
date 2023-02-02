@@ -49,6 +49,7 @@ a {
 .nav-movil{
     display: none;
 }
+
 @media screen and (max-width :800px){
     .nav{
         display: none;
@@ -56,5 +57,18 @@ a {
     .nav-movil{
         display: block;
         font-size: 2rem;
+    }
+    .nav-mobil{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items:flex-end;
+        position: absolute;
+        top: 130px;
+        left:50%;
+        width:50%;
+        height:100vh;
+        z-index: 1000;
+        background-color: aqua;
     }
 }
