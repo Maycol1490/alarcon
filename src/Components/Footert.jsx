@@ -5,6 +5,7 @@ import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import LogoSin from '../assets/1logo-nav.png'
 import foto from '../assets/logo-.jpeg'
 import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs"
+import { FaEnvelopeOpenText, FaLocationArrow, FaWhatsapp } from 'react-icons/fa'
 
 const Footert = () => {
   return (
@@ -15,13 +16,21 @@ const Footert = () => {
             <img src={LogoSin} alt="" />
           </div>
         </NavLink>
-        <div className='contacto-footer'>
+          <div className='contacto-footer'>
+            <h3 className='titulo-footer'>Datos de contacto</h3>
+            <ul>
+              <li><i><FaLocationArrow /></i> Cra. 4 #8-63, Cali, Valle del Cauca</li>
+              <li><i><FaLocationArrow /></i>Oficina N.  302.</li>
+              <li><i><FaEnvelopeOpenText /></i>consultasjuridicas1122@gmail.com</li>
+              <li><i><FaWhatsapp /></i>318-375-4282</li>
+            </ul>
+          </div>
+        <div className='redes-footer'>
           <div className='iconos-footer'>
             <i><BsLinkedin /></i>
             <i><BsInstagram /></i>
             <i><BsFacebook /></i>
           </div>
-          <h3 className='telefono-footer'>telefonos & correo</h3>
         </div>
       </footer>
       <div>

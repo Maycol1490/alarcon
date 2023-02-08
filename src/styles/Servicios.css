@@ -1,6 +1,6 @@
 /* !Servicios+++++++++++++++++++++++++++++++++++++ */
 .servicios {
-    margin-top: 150px;
+    margin-top: 250px;
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -16,7 +16,7 @@
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    border: 2px solid var(--color1);
+    border: 2px solid var(--color3);
     border-radius: 20px;
 }
 
@@ -26,7 +26,7 @@
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    border: 2px solid var(--color1);
+    border: 2px solid var(--color3);
     border-radius: 20px;
 }
 
@@ -42,14 +42,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
     margin: 2rem 1rem 2rem 1rem;
 }
 
-.photo {
-width: 100%;
-height: 100%;
-font-size: 7rem;
+.photo img {
+    width: 100%;
+    height: 100%;
+    border: 3px solid var(--color3);
+    border-radius: 20px;
 }
 
 .description {
@@ -76,6 +76,7 @@ font-size: 7rem;
     font-family: var(--font-family2);
     font-weight: bold;
     font-style: normal;
+    font-size: 20px;
 }
 
 .description p {
@@ -185,20 +186,22 @@ button:hover .button-text {
     color: #fff;
 }
 
-@media screen and (max-width :800px){
-    .blog-card{
+@media screen and (max-width :800px) {
+    .blog-card {
         width: 80%;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
-    .blog-card2{
+
+    .blog-card2 {
         width: 80%;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
-    .meta{
+
+    .meta {
         width: 80%;
     }
 

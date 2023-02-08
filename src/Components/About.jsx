@@ -2,10 +2,10 @@ import React from 'react'
 import '../styles/About.css'
 import fotoPerfil from '../assets/logo-.jpeg'
 import noticia1 from '../assets/1logo-nav.png'
-import noticia2 from '../assets/Fondo-home.jpg'
-import noticia3 from '../assets/Fondo-Perfil.jpg'
-import noticia4 from '../assets/logo-.jpeg'
-import noticia5 from '../assets/Fondo-perfil1.jpg'
+import noticia2 from '../assets/imagen1.jpg'
+import noticia3 from '../assets/imagen2.jpg'
+import noticia4 from '../assets/imagen3.jpg'
+import noticia5 from '../assets/imagen4.jpg'
 
 
 const About = () => {

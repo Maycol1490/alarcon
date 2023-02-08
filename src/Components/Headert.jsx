@@ -1,15 +1,16 @@
 import React from 'react'
 import '../styles/Headert.css'
 import { NavLink } from 'react-router-dom'
-import { FaBars} from "react-icons/fa";
+import { FaBars, FaEnvelopeOpenText } from "react-icons/fa";
 import Logo from '../assets/1logo-nav.png'
 import { useState } from 'react';
+import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs"
 
 
 const Headert = () => {
   const [navMobil, setnavMobil] = useState(false)
-  
-  
+
+
   const handleNav = () => {
     setnavMobil(!navMobil)
   }
@@ -17,17 +18,27 @@ const Headert = () => {
 
   return (
     <header className='header'>
-      <div className='imangen-logo'>
-        <NavLink to='/Home'><img src={Logo} alt="Alarcon Y Asociados" /></NavLink>
+      <div className='redes-header'>
+        <a href="mailto:consultasjuridicas1122@gmail.com"><i><FaEnvelopeOpenText /></i>consultasjuridicas1122@gmail.com</a>
+        <div className='iconos-header'>
+          <i><BsLinkedin /></i>
+          <i><BsInstagram /></i>
+          <i><BsFacebook /></i>
+        </div>
       </div>
-      <nav className={navMobil ? 'nav-mobil':'nav'}>
-        <ul>
-          <li><NavLink to='/About'>Quines Somos</NavLink></li>
-          <li><NavLink to='/Servicios'>Areas De Práctica</NavLink></li>
-          <li><NavLink to='/Contact'>Contacto</NavLink></li>
-        </ul>
-      </nav>
-      <div className='nav-movil'><FaBars onClick={handleNav}/></div>
+      <div className='menu-header'>
+        <div className='imangen-logo'>
+          <NavLink to='/Home'><img src={Logo} alt="Alarcon Y Asociados" /></NavLink>
+        </div>
+        <nav className={navMobil ? 'nav-mobil' : 'nav'}>
+          <ul>
+            <li><NavLink to='/About'>Quienes Somos</NavLink></li>
+            <li><NavLink to='/Servicios'>Areas De Práctica</NavLink></li>
+            <li><NavLink to='/Contact'>Contacto</NavLink></li>
+          </ul>
+        </nav>
+        <div className='nav-movil'><FaBars onClick={handleNav} /></div>
+      </div>
     </header>
   )
 }
