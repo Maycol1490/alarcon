@@ -35,12 +35,12 @@ const Footert = () => {
       </footer>
       <div>
         <FloatingWhatsApp
-          phoneNumber='+57 3166252214'
+          phoneNumber='+57 3183754282'
           accountName='Alarcon & Abogados Asociados'
-          chatMessage='Hola en que puedo ayudarte'
+          chatMessage='Gracias por comunicarte con Camilo Alarcon & abogados asociados. Por favor, hazme saber en qué área del derecho podemos ayudarte.'
           statusMessage='Disponible'
           avatar={foto}
-          className='floating-whatsapp floating-whatsapp-button'
+          chatboxHeight='350px'
         />
       </div>
     </>

@@ -11,8 +11,10 @@ const Contact = () => {
           <h2 className='titulo-contacto'>CONTACTOS</h2>
           <ul>
             <li><i><FaLocationArrow/></i> Cra. 4 #8-63, Cali, Valle del Cauca, Colombia  Oficina N.  302.</li>
-            <li><a href="mailto:maicol1490@hotmail.com"><i><FaEnvelopeOpenText/></i>alarconabogados@inf.com</a></li>
-            <li><a href="https://wa.me/+573234787414?text=Hola%20buen%20dia%20gustaria%20hacer%20una%20consulta"><i><FaWhatsapp/></i>Telefono 310-123-4567</a></li>
+            <li><a href="mailto:consultasjuridicas1122@gmail.com"><i><FaEnvelopeOpenText/></i>consultasjuridicas1122@gmail.com</a></li>
+            <li><a href="https://wa.me/+573183754282?
+            text=">
+              <i><FaWhatsapp/></i>Telefono 318-375-4282</a></li>
           </ul>
         </div>
         <div className='mapa-contacto'>
