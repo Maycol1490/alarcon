@@ -12,7 +12,7 @@ const Contact = () => {
           <ul>
             <li><i><FaLocationArrow/></i> Cra. 4 #8-63, Cali, Valle del Cauca, Colombia  Oficina N.  302.</li>
             <li><a href="mailto:consultasjuridicas1122@gmail.com"><i><FaEnvelopeOpenText/></i>consultasjuridicas1122@gmail.com</a></li>
-            <li><a href="https://wa.me/+573183754282?
+            <li><a href="https://wa.me/+57 3183754282?
             text=">
               <i><FaWhatsapp/></i>Telefono 318-375-4282</a></li>
           </ul>

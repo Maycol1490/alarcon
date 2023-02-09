@@ -40,7 +40,7 @@ const Footert = () => {
           chatMessage='Gracias por comunicarte con Camilo Alarcon & abogados asociados. Por favor, hazme saber en qué área del derecho podemos ayudarte.'
           statusMessage='Disponible'
           avatar={foto}
-          chatboxHeight='350px'
+          chatboxHeight='400px'
         />
       </div>
     </>

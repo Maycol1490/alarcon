@@ -80,7 +80,6 @@
     color: var(--color4);
 }
 
-
 @media screen and (max-width :800px){
     .footer {
         display: flex;
