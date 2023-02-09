@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/Headert.css'
 import { NavLink } from 'react-router-dom'
 import { FaBars, FaEnvelopeOpenText } from "react-icons/fa";
-import Logo from '../assets/1logo-nav.png'
+import Logo from '../assets/500.png'
 import { useState } from 'react';
 import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs"
 
@@ -10,6 +10,7 @@ import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs"
 const Headert = () => {
   const [navMobil, setnavMobil] = useState(false)
 
+  //e.target.reset()
 
   const handleNav = () => {
     setnavMobil(!navMobil)
