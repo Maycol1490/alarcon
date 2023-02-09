@@ -13,15 +13,23 @@ const Home = () => {
           <button className='btn-home'>Abogados</button>
         </NavLink>
       </div>
-      <section  className='servicios-home'>
+      <section className='servicios-home'>
         <NavLink to='/Servicios'>
-        <h2 className='title-servicios'>Areas De Práctica</h2>
+          <h2 className='title-servicios'>Areas De Práctica</h2>
         </NavLink>
         <ul className='ul-servicios'>
-          <li><i><FaCity /></i> Derecho Privado</li>
-          <li><i><FaBalanceScale /></i> Derecho Penal</li>
-          <li><i><FaBriefcase /></i> Derecho Laboral & Seguridad social</li>
-          <li><i><FaHandshake /></i> Derecho Tributario</li>
+          <NavLink to='/DerechoP'>
+            <li><i><FaBalanceScale /></i> Derecho Penal</li>
+          </NavLink>
+          <NavLink to='/DerechoPr'>
+            <li><i><FaCity /></i> Derecho Privado</li>
+          </NavLink>
+          <NavLink to='/DerechoA'>
+            <li><i><FaBriefcase /></i> Derecho Laboral & Seguridad social</li>
+          </NavLink>
+          <NavLink to='/DerechoT'>
+            <li><i><FaHandshake /></i> Derecho Tributario</li>
+          </NavLink>
         </ul>
       </section>
 
