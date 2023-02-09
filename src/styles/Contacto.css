@@ -65,14 +65,17 @@
 }
 @media screen and (max-width :800px){
     .container-contacto{
-        width: 100%;
+        width: 80%;
     }
     .titulo-contacto{
         width: 80%;
     }
-    .inf-contacto li, .inf-contacto a{
+    .inf-contacto li,.inf-contacto a{
         width: 80%;
 
+    }
+    .inf-contacto i{
+        width: 100%;
     }
     .mapa-contacto iframe{
         width:80%;
