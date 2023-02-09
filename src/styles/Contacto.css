@@ -41,12 +41,14 @@
     gap: 3rem;
     padding: 1rem;
 }
-.inf-contacto li,a{
+.inf-contacto li, .inf-contacto a{
     display: flex;
     justify-content:space-between;
     align-items: center;
     text-align: center;
     color: var(--color3);
+    font-family: var(--font-family1);
+    font-size: 20px;
 }
 .inf-contacto i {
     display: flex;
@@ -62,8 +64,15 @@
     border: 3px solid var(--color3);
 }
 @media screen and (max-width :800px){
-    .container-inf-contacto{
-        width:80%;
+    .container-contacto{
+        width: 100%;
+    }
+    .titulo-contacto{
+        width: 80%;
+    }
+    .inf-contacto li, .inf-contacto a{
+        width: 80%;
+
     }
     .mapa-contacto iframe{
         width:80%;
