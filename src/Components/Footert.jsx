@@ -17,7 +17,7 @@ const Footert = () => {
           </div>
         </NavLink>
           <div className='contacto-footer'>
-            <h3 className='titulo-footer'>Datos de contacto</h3>
+            <h3 className='titulo-footer'>Datos De Contacto</h3>
             <ul>
               <li><i><FaLocationArrow /></i> Cra. 4 #8-63, Cali, Valle del Cauca</li>
               <li><i><FaLocationArrow /></i>Oficina N.  302.</li>
