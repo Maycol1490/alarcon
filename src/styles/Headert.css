@@ -15,6 +15,7 @@
 .redes-header a{
     color: var(--color1);
     font-size: 16px;
+    padding: .5rem;
 }
 .iconos-header{
     display: flex;
