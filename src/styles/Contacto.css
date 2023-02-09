@@ -67,16 +67,7 @@
     .container-contacto{
         width: 80%;
     }
-    .titulo-contacto{
-        width: 80%;
-    }
-    .inf-contacto li,.inf-contacto a{
-        width: 80%;
 
-    }
-    .inf-contacto i{
-        width: 100%;
-    }
     .mapa-contacto iframe{
         width:80%;
         height: 100vh;
