@@ -94,7 +94,7 @@
     width: 80%;
     height: 400px;
 }
-.galeria-perfil img{
+.galeria-perfil video{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,7 +106,7 @@
     transition: .5s ease;
     margin-top: 3rem;
 }
-.galeria-perfil img:hover{
+.galeria-perfil video:hover{
     cursor: crosshair;
     width:100%;
     opacity: 1;
