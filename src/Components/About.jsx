@@ -1,10 +1,10 @@
 import React from 'react'
 import '../styles/About.css'
 import fotoPerfil from '../assets/logo-.jpeg'
-import noticia1 from '../assets/video1.mp4'
-import noticia2 from '../assets/video2.mp4'
-import noticia3 from '../assets/video3.mp4'
-import noticia4 from '../assets/video4.mp4'
+import noticia1 from '../assets/morty.mp4'
+import noticia2 from '../assets/morty.mp4'
+import noticia3 from '../assets/morty.mp4'
+import noticia4 from '../assets/morty.mp4'
 
 
 
