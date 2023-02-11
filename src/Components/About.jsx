@@ -12,17 +12,17 @@ const About = () => {
   return (
     <section>
       <div>
-        <div class="card">
-          <div class="card_load">
+        <div className="card">
+          <div className="card_load">
             <img src={fotoPerfil} alt="" />
           </div>
           <div>
-            <div class="card_load_extreme_title">
+            <div className="card_load_extreme_title">
               <h1>
                 Camilo Alarcon
               </h1>
             </div>
-            <div class="card_load_extreme_descripion">
+            <div className="card_load_extreme_descripion">
               <p>
                 Alarcon & Abogados Asociados, es una firma de especialistas en distintas áreas del derecho enfocados en adelantar asesorías y representaciones judiciales exitosas, reconocidos por su alto compromiso y empeño en casos de alta complejidad a nivel nacional.
                 Contamos con aliados estratégicos y profesionales capacitados en dar acompañamiento a cada una de las etapas del proceso judicial que usted enfrenta.
