@@ -34,18 +34,10 @@ const About = () => {
       <div className='noticias-perfil'>
         <h3 className='subtitle-perfil'>Noticias</h3>
         <div className='galeria-perfil'>
-          <video controls>
-            <source src={noticia1} type="video/mp4" />
-          </video>
-          <video controls>
-            <source src={noticia2} type="video/mp4" />
-          </video>
-          <video controls>
-            <source src={noticia3} type="video/mp4" />
-          </video>
-          <video controls>
-            <source src={noticia4} type="video/mp4" />
-          </video>
+          <video src={noticia1} controls></video>
+          <video src={noticia2} controls></video>
+          <video src={noticia3} controls></video>
+          <video src={noticia4} controls></video>
         </div>
       </div>
     </section>
