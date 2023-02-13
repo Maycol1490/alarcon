@@ -86,6 +86,15 @@ a {
 .nav-movil{
     display: none;
 }
+.nav-mobil{
+    display: none;
+}
+.nav-mobil ul {
+    display: none;
+}
+.nav-mobil a {
+    display: none;
+}
 
 @media screen and (max-width :800px){
     .nav{
@@ -96,6 +105,7 @@ a {
         font-size: 2rem;
     }
     .nav-mobil{
+        display: block;
         position: absolute;
         top: 130px;
         left:50%;
@@ -103,6 +113,9 @@ a {
         height:100vh;
         z-index: 1000;
         background-color:var(--color3);
+    }
+    .nav-mobil ul {
+        display: block;
     }
     .nav-mobil a {
         display: flex;
@@ -114,7 +127,9 @@ a {
         border-bottom: 5px solid var(--color1);
         cursor: pointer;
     }
-
+    .nav-none{
+        display: none;
+    }
 
 }
 @media screen and (max-width :600px){
