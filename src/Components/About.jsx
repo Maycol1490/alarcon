@@ -23,9 +23,10 @@ const About = () => {
               </h1>
             </div>
             <div className="card_load_extreme_descripion">
+              <h4>Director General.</h4>
               <p>
-                Alarcon & Abogados Asociados, es una firma de especialistas en distintas áreas del derecho enfocados en adelantar asesorías y representaciones judiciales exitosas, reconocidos por su alto compromiso y empeño en casos de alta complejidad a nivel nacional.
-                Contamos con aliados estratégicos y profesionales capacitados en dar acompañamiento a cada una de las etapas del proceso judicial que usted enfrenta.
+              Abogado de la universidad Libre, especialista en Derecho Penal y Criminalística de la misma universidad y especialista en Derecho Tributario de la Universidad Externado de Colombia. Actualmente se desempeña como Director General de la firma Alarcón & Asociados. Ha sido defensa de confianza en procesos penales complejos y de relevancia nacional. 
+              Es preciso exaltar su conocimiento y experiencia en los asuntos jurídicos en materia penal por su gran capacidad de oratoria y argumentación.
               </p>
             </div>
           </div>

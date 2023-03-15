@@ -17,6 +17,10 @@ const DerechoPr = () => {
                 <li>Elaboración en contratos civiles y comerciales.</li>
                 <li>Acompañamiento y representación en procesos civiles tales como sucesiones, prescripciones, responsabilidad contractual y extracontractual.</li>
                 <li>Estudio de títulos en la adquisición de bienes.</li>
+                <li>Representación  en asuntos referentes a la propiedad posesión y tenencia de inmuebles</li>
+                <li>Asistencia jurídica en conciliaciones extrajudiciales en los distintos ámbitos del derecho privado.</li>
+                <li>Asistencia en el ámbito de la propiedad horizontal y arrendamientos.</li>
+                <li>Gestión ejecutiva de obligaciones de dar o de hacer.</li>
                 <li>Otros servicios legales.</li>
             </ul>
         </div>

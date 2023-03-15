@@ -54,6 +54,13 @@
     background-position: 100% 0;
     animation: load89234 2s infinite;
 }
+.card_load_extreme_descripion h4 {
+    font-family: var(--font-family1);
+    font-weight: 400;
+    font-size: 20px;
+    margin: 1rem;
+    border-bottom: 2px solid var(--color3);
+}
 
 .card_load_extreme_descripion p {
     display: flex;

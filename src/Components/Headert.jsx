@@ -15,7 +15,6 @@ const Headert = () => {
 
   const handleNav = () => {
     setnavMobil(!navMobil);
-
   }
 
   return (
@@ -30,7 +29,7 @@ const Headert = () => {
       </div>
       <div className='menu-header'>
         <div className='imangen-logo'>
-          <NavLink to='/Home'><img src={Logo} alt="Alarcon Y Asociados" /></NavLink>
+          <NavLink to='/'><img src={Logo} alt="Alarcon Y Asociados" /></NavLink>
         </div>
         <nav className='nav'>
           <ul>
