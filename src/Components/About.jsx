@@ -1,6 +1,8 @@
 import React from 'react'
 import '../styles/About.css'
 import fotoPerfil from '../assets/logo-.jpeg'
+import camiloPerfil from '../assets/camilo_perfil.png'
+import mauricoPerfil from '../assets/mauricio_perfil.png'
 import noticia1 from '../assets/noticia1.mp4'
 import noticia2 from '../assets/noticia2.mp4'
 import noticia3 from '../assets/noticia3.mp4'
@@ -14,7 +16,7 @@ const About = () => {
       <div>
         <div className="card">
           <div className="card_load">
-            <img src={fotoPerfil} alt="" />
+            <img src={camiloPerfil} alt="" />
           </div>
           <div>
             <div className="card_load_extreme_title">
@@ -35,7 +37,7 @@ const About = () => {
       <div>
         <div className="card">
           <div className="card_load">
-            <img src={fotoPerfil} alt="" />
+            <img src={mauricoPerfil} alt="" />
           </div>
           <div>
             <div className="card_load_extreme_title">

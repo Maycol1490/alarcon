@@ -16,6 +16,7 @@
 
 .card_load {
     width: 370px;
+    height: 370px;
     background: linear-gradient(120deg, #e5e5e5 30%, #f0f0f0 38%, #f0f0f0 40%, #e5e5e5 48%);
     border-radius: 50%;
     background-size: 200% 100%;
@@ -25,6 +26,7 @@
 
 .card_load img {
     width: 100%;
+    height: 100%;
     border-radius: 50%;
 }
 
@@ -123,10 +125,12 @@
     .card{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
     .card_load_extreme_title {
         width: 100%;
     }
+
     .card_load_extreme_descripion {
         width: 100%;
     }
