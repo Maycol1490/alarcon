@@ -119,7 +119,7 @@ a {
     }
     .nav-mobil a {
         display: flex;
-        justify-content: space-around;
+        justify-content:center;
         align-items: center;
         margin-top: 3rem;
         color: var(--color1);
