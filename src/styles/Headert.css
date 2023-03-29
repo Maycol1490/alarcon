@@ -123,6 +123,7 @@ a {
         align-items: center;
         margin-top: 3rem;
         color: var(--color1);
+        margin-right: 0;
     }
     .nav-mobil a:hover{
         border-bottom: 5px solid var(--color1);
