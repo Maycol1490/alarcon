@@ -20,7 +20,7 @@ const Headert = () => {
   return (
     <header className='header'>
       <div className='redes-header'>
-        <a href="mailto:consultasjuridicas1122@gmail.com"><i><FaEnvelopeOpenText /></i>consultasjuridicas1122@gmail.com</a>
+        <a href="mailto:inf@alarconabogados.com"><i><FaEnvelopeOpenText /></i>inf@alarconabogados.com</a>
         <div className='iconos-header'>
           <i><BsLinkedin /></i>
           <i><BsInstagram /></i>
