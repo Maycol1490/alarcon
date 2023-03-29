@@ -48,8 +48,8 @@ const About = () => {
             <div className="card_load_extreme_descripion">
               <h4>Asociados</h4>
               <p>
-              Abogado egresado de la Universidad Libre, Litigante en derecho privado con énfasis en la defensa jurídica en procesos de carácter judicial, Actualmente se desempeña como asesor externo de varias empresas de la región, asesor principal externo de profesionales asociados empresa dedicada a la recuperación de cartera y 
-              asesoría jurídica bajo la lay 675 de 2001, como profesional se destaca su capacidad de análisis de las causas que motivan el servicio para establecer la mejor estrategia y asesorarlo durante todo el proceso, tomando los asuntos a él conferidos con responsabilidad y dinamismo, gracias su experiencia cuenta con una alta valoración de sus clientes siendo un sello de respaldo para estos.
+              Abogado egresado de la Universidad Libre, Litigante en derecho privado. Actualmente se desempeña como asesor externo de varias empresas de la región, es asesor principal externo de profesionales asociados empresa dedicada a la 
+              recuperación de cartera y asesoría jurídica y administración de inmuebles, como profesional se destaca su empeño hacia el trabajo, capacidad de análisis y honestidad frente a las causas del cliente, gracias su experiencia cuenta con una alta valoración de sus clientes siendo un sello de respaldo para sus clientes.
               </p>
             </div>
           </div>
