@@ -46,7 +46,7 @@ const About = () => {
               </h1>
             </div>
             <div className="card_load_extreme_descripion">
-              <h4>A bogado Asociado.</h4>
+              <h4>Abogado Asociado.</h4>
               <p>
               Abogado egresado de la Universidad Libre, Litigante en derecho privado. Actualmente se desempeña como asesor externo de varias empresas de la región, es asesor principal externo de profesionales asociados empresa dedicada a la 
               recuperación de cartera y asesoría jurídica y administración de inmuebles, como profesional se destaca su empeño hacia el trabajo, capacidad de análisis y honestidad frente a las causas del cliente, gracias su experiencia cuenta con una alta valoración de sus clientes siendo un sello de respaldo para sus clientes.
