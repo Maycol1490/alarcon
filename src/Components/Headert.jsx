@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 import { FaBars, FaEnvelopeOpenText } from "react-icons/fa";
 import Logo from '../assets/500.png'
 import { useState } from 'react';
-import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs"
+import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs"
 
 
 const Headert = () => {
@@ -22,9 +22,15 @@ const Headert = () => {
       <div className='redes-header'>
         <a href="mailto:inf@alarconabogados.com"><i><FaEnvelopeOpenText /></i>inf@alarconabogados.com</a>
         <div className='iconos-header'>
-          <i><BsLinkedin /></i>
+          <a href="https://twitter.com/AlarconyAsoc" target='_blank'>
+          <i><BsTwitter /></i>
+          </a>
+          <a href="https://www.instagram.com/alarconyasociados_/" target='_blank'>
           <i><BsInstagram /></i>
+          </a>
+          <a href="" target='_blank'>
           <i><BsFacebook /></i>
+          </a>
         </div>
       </div>
       <div className='menu-header'>
