@@ -1,5 +1,8 @@
 
 /* ! tarjeta ++++++++++++++++++++++++++++++++++++++++++++ */
+.principal{
+    margin-top: 14rem ;
+}
 .card {
     width: 80%;
     background: #ffff;
@@ -10,7 +13,6 @@
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
-    margin-top: 14rem;
     margin-bottom: 5rem;
 }
 
