@@ -10,7 +10,7 @@ const Home = () => {
       <div className='home'>
         <p className='descricion-home'>Defender es un compromiso con nuestra labor y su confianza.</p>
         <NavLink to='/About'>
-          <button className='btn-home'>Abogados</button>
+          <button className='btn-home'>Asociados</button>
         </NavLink>
       </div>
       <section className='servicios-home'>
