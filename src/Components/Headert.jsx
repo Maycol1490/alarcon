@@ -15,6 +15,7 @@ const Headert = () => {
 
   const handleNav = () => {
     setnavMobil(!navMobil);
+    window.scrollTo(0, 0);
   }
 
   return (
@@ -35,13 +36,13 @@ const Headert = () => {
       </div>
       <div className='menu-header'>
         <div className='imangen-logo'>
-          <NavLink to='/'><img src={Logo} alt="Alarcon Y Asociados" /></NavLink>
+          <NavLink to='/' onClick={() => window.scrollTo(0, 0)}><img src={Logo} alt="Alarcon Y Asociados" /></NavLink>
         </div>
         <nav className='nav'>
           <ul>
-            <li><NavLink to='/About'>Quienes Somos</NavLink></li>
-            <li><NavLink to='/Servicios'>Areas De Práctica</NavLink></li>
-            <li><NavLink to='/Contact' >Contacto</NavLink></li>
+            <li><NavLink to='/About' onClick={() => window.scrollTo(0, 0)}>Quienes Somos</NavLink></li>
+            <li><NavLink to='/Servicios' onClick={() => window.scrollTo(0, 0)}>Areas De Práctica</NavLink></li>
+            <li><NavLink to='/Contact' onClick={() => window.scrollTo(0, 0)} >Contacto</NavLink></li>
           </ul>
         </nav>
         <div className='nav-movil'><FaBars onClick={handleNav} />

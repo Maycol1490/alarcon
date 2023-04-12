@@ -11,7 +11,7 @@ const Footert = () => {
   return (
     <>
       <footer className='footer'>
-        <NavLink to='/Home'>
+        <NavLink to='/' onClick={() => window.scrollTo(0, 0)}>
           <div className='logo-footer'>
             <img src={LogoSin} alt="" />
           </div>
