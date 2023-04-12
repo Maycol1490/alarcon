@@ -16,7 +16,7 @@ const About = () => {
       <div className='principal'>
         <div className="card">
           <div className="card_load">
-            <img src={camiloPerfil} alt="" />
+            <img src={camiloPerfil} alt="Director General." />
           </div>
           <div>
             <div className="card_load_extreme_title">
@@ -37,7 +37,7 @@ const About = () => {
       <div>
         <div className="card">
           <div className="card_load">
-            <img src={mauricoPerfil} alt="" />
+            <img src={mauricoPerfil} alt="Abogado_Asociado" />
           </div>
           <div>
             <div className="card_load_extreme_title">
@@ -58,7 +58,7 @@ const About = () => {
       <div>
         <div className="card">
           <div className="card_load">
-            <img src={amirPerfil} alt="" />
+            <img src={amirPerfil} alt="Abogado_Asociado" />
           </div>
           <div>
             <div className="card_load_extreme_title">
