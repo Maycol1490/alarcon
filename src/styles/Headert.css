@@ -11,6 +11,7 @@
     z-index: 100;
     background-color: var(--color3);
     padding: .5rem 2rem 0 2rem;
+    top: 0%;
 }
 .redes-header a{
     color: var(--color1);

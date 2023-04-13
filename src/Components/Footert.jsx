@@ -21,7 +21,7 @@ const Footert = () => {
           <ul>
             <li><i><FaLocationArrow /></i> Cra. 4 #8-63, Cali, Valle del Cauca</li>
             <li><i><FaLocationArrow /></i>Oficina N.  302.</li>
-            <li><i><FaEnvelopeOpenText /></i>consultasjuridicas1122@gmail.com</li>
+            <li><i><FaEnvelopeOpenText /></i>inf@alarconabogados.com</li>
             <li><i><FaWhatsapp /></i>318-375-4282</li>
           </ul>
         </div>
