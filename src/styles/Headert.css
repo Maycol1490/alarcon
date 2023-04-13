@@ -1,3 +1,16 @@
+ul,
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+a:link, a:visited,  a:hover, a:active
+{
+    color: #000000;
+    text-decoration: none;
+}
+
 .header{
     display: flex;
     flex-direction: column;
@@ -141,5 +154,8 @@ a {
     }
         .menu-header{
         top: 28px;
+    }
+    .redes-header{
+        top:0%
     }
 }
