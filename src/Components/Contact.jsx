@@ -11,7 +11,7 @@ const Contact = () => {
           <h2 className='titulo-contacto'>CONTACTOS</h2>
           <ul>
             <li><i><FaLocationArrow/></i> Cra. 4 #8-63, Cali, Valle del Cauca, Colombia  Oficina N.  302.</li>
-            <li><a href="mailto:inf@alarconabogados.com"><i><FaEnvelopeOpenText/></i>inf@alarconabogados.com</a></li>
+            <li><a href="mailto:inf@alarconabogadosyasociados.com"><i><FaEnvelopeOpenText/></i>inf@alarconabogadosyasociados.com</a></li>
             <li><a href="https://wa.me/+57 3183754282?
             text=">
               <i><FaWhatsapp/></i>Telefono 318-375-4282</a></li>

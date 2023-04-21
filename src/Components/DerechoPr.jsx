@@ -7,7 +7,7 @@ const DerechoPr = () => {
   return (
     <div className='servicios-generales'>
         <div className='imagen-general'>
-            <img src={Imagen3} alt="" />
+            <img src={Imagen3} alt="derecho privado alarconabogadosyasociados.com" />
         </div>
         <div className='container-generales'>
             <h1 className='titulo-generales'>DERECHO PRIVADO.</h1>

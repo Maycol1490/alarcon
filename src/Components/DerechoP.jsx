@@ -7,7 +7,7 @@ const DerechoP = () => {
     return (
         <section className='servicios-generales'>
             <div className='imagen-general'>
-                <img src={Imagen1} alt="" />
+                <img src={Imagen1} alt="derecho penal alarconabogadosyasociados.com" />
             </div>
             <div className='container-generales'>
                 <h1 className='titulo-generales'>DERECHO PENAL.</h1>

@@ -9,9 +9,6 @@ import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs"
 
 const Headert = () => {
   const [navMobil, setnavMobil] = useState(false)
-  const [navOpen, setnavOpen] = useState(false)
-
-  //e.target.reset()
 
   const handleNav = () => {
     setnavMobil(!navMobil);
@@ -21,7 +18,7 @@ const Headert = () => {
   return (
     <header className='header'>
       <div className='redes-header'>
-        <a href="mailto:inf@alarconabogados.com"><i><FaEnvelopeOpenText /></i>inf@alarconabogados.com</a>
+        <a href="mailto:inf@alarconabogadosyasociados.com"><i><FaEnvelopeOpenText /></i>inf@alarconabogadosyasociados.com</a>
         <div className='iconos-header'>
           <a href="https://twitter.com/AlarconyAsoc" target='_blank'>
           <i><BsTwitter /></i>
@@ -36,7 +33,7 @@ const Headert = () => {
       </div>
       <div className='menu-header'>
         <div className='imangen-logo'>
-          <NavLink to='/' onClick={() => window.scrollTo(0, 0)}><img src={Logo} alt="Alarcon Y Asociados" /></NavLink>
+          <NavLink to='/' onClick={() => window.scrollTo(0, 0)}><img src={Logo} alt="alarconabogadosyasociados.com" /></NavLink>
         </div>
         <nav className='nav'>
           <ul>

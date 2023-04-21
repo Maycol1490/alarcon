@@ -16,7 +16,7 @@ const About = () => {
       <div className='principal'>
         <div className="card">
           <div className="card_load">
-            <img src={camiloPerfil} alt="Director General." />
+            <img src={camiloPerfil} alt="alarconabogadosyasociados.com" />
           </div>
           <div>
             <div className="card_load_extreme_title">
@@ -37,7 +37,7 @@ const About = () => {
       <div>
         <div className="card">
           <div className="card_load">
-            <img src={mauricoPerfil} alt="Abogado_Asociado" />
+            <img src={mauricoPerfil} alt="alarconabogadosyasociados.com" />
           </div>
           <div>
             <div className="card_load_extreme_title">

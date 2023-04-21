@@ -13,7 +13,7 @@ const Servicios = () => {
       <div className='servicios'>
         <div className="blog-card">
           <div className="meta">
-            <div className="photo"><img src={Imagen1} alt="" /></div>
+            <div className="photo"><img src={Imagen1} alt="Derecho Penal alarconabogadosyasociados.com" /></div>
           </div>
           <div className="description">
             <h1>DERECHO PENAL</h1>
@@ -30,7 +30,7 @@ const Servicios = () => {
         </div>
         <div className="blog-card2">
           <div className="meta">
-            <div className="photo"><img src={Imagen2} alt="" /></div>
+            <div className="photo"><img src={Imagen2} alt="Derecho laboral alarconabogadosyasociados.com" /></div>
           </div>
           <div className="description">
             <h1>DERECHO LABORAL Y DE LA SEGURIDAD SOCIAL</h1>
@@ -47,7 +47,7 @@ const Servicios = () => {
         </div>
         <div className="blog-card">
           <div className="meta">
-            <div className="photo"><img src={Imagen3} alt="" /></div>
+            <div className="photo"><img src={Imagen3} alt="derecho privado alarconabogadosyasociados.com" /></div>
           </div>
           <div className="description">
             <h1>DERECHO PRIVADO</h1>
@@ -64,7 +64,7 @@ const Servicios = () => {
         </div>
         <div className="blog-card2">
           <div className="meta">
-            <div className="photo"><img src={Imagen4} alt="" /></div>
+            <div className="photo"><img src={Imagen4} alt="derecho tributario alarconabogadosyasociados.com" /></div>
           </div>
           <div className="description">
             <h1>DERECHO TRIBUTARIO</h1>

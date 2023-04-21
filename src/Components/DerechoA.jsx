@@ -6,7 +6,7 @@ const DerechoA = () => {
   return (
     <div className='servicios-generales'>
         <div className='imagen-general'>
-            <img src={Imagen2} alt="" />
+            <img src={Imagen2} alt="derecho laboral alarconabogadosyasociados.com" />
         </div>
         <div className='container-generales'>
             <h1 className='titulo-generales'>DERECHO LABORAL Y DE LA SEGURIDAD SOCIAL.</h1>

@@ -6,7 +6,7 @@ const DerechoT = () => {
   return (
     <div className='servicios-generales'>
         <div className='imagen-general'>
-            <img src={Imagen4} alt="" />
+            <img src={Imagen4} alt="derecho tributario alarconabogadosyasociados.com" />
         </div>
         <div className='container-generales'>
             <h1 className='titulo-generales'>DERECHO TRIBUTARIO: </h1>
