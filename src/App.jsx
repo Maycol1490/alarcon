@@ -11,7 +11,9 @@ import DerechoA from './Components/DerechoA'
 import DerechoPr from './Components/DerechoPr'
 import DerechoT from './Components/DerechoT'
 
+
 function App() {
+
 
   return (
     <div className="App">
@@ -28,7 +30,6 @@ function App() {
         <Route path='*' element={<h1>error 404</h1>}/>
       </Routes>
       <Footert/>
-      
     </div>
   )
 }
