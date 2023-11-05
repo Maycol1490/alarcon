@@ -4,8 +4,9 @@ import { NavLink } from 'react-router-dom'
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import LogoSin from '../assets/500.png'
 import foto from '../assets/logo-.jpeg'
-import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs"
+import { BsFacebook, BsInstagram} from "react-icons/bs"
 import { FaEnvelopeOpenText, FaLocationArrow, FaWhatsapp } from 'react-icons/fa'
+import { FaXTwitter } from "react-icons/fa6"
 
 const Footert = () => {
   return (
@@ -28,7 +29,7 @@ const Footert = () => {
         <div className='redes-footer'>
           <div className='iconos-footer'>
             <a href="https://twitter.com/AlarconyAsoc" target='_blank'>
-            <i><BsTwitter /></i>
+            <i><FaXTwitter /></i>
             </a>
             <a href="https://www.instagram.com/alarconyasociados_/" target='_blank'>
               <i><BsInstagram /></i>
