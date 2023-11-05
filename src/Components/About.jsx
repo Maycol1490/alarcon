@@ -15,7 +15,8 @@ const About = () => {
     'https://www.youtube.com/embed/dY_IHJ-6e3A',
     'https://www.youtube.com/embed/5AawS-krGMc',
     'https://www.youtube.com/embed/iRLTb61hmWI&t=48s',
-    'https://www.youtube.com/embed/CjKlSmPSBr4'
+    'https://www.youtube.com/embed/CjKlSmPSBr4',
+    'https://www.youtube.com/embed/QwVhLO8hB-g'
   ];
 
   const goToPreviousSlide = () => {
