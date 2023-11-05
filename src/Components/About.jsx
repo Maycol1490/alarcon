@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import '../styles/About.css'
 import amirPerfil from '../assets/amir_perfil.png'
-import camiloPerfil from '../assets/camilo_perfil.png'
+import camiloPerfil from '../assets/perfi1.jpeg'
 import mauricoPerfil from '../assets/mauricio_perfil.png'
 
 
