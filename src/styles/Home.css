@@ -1,7 +1,7 @@
 /* ! Home++++++++++++++++++++++++++++++++++++++++++++++ */
 
 .home {
-    background-image:url('../assets/recurso-de-casacion-en-el-fondo.jpg');
+    background-image:url('../assets/fondo2.jpeg');
     background-size: 100% 100%;
     width: 100%;
     max-height: 100vh;
@@ -9,13 +9,13 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
-    align-items: flex-end;
+    align-items: flex-start;
     text-align: center;
     border-bottom: 3px solid var(--color3);
 }
 
 .descricion-home {
-    color: var(--color4);
+    color: var(--color1);
     font-size: 2rem;
     width: 800px;
     padding: 3rem;
@@ -23,15 +23,15 @@
 
 .btn-home {
     background-color: transparent;
-    border: 3px solid var(--color4);
+    border: 3px solid var(--color2);
     border-radius: 20px;
-    color: var(--color3);
+    color: var(--color1);
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
     display: flex;
     font-size: 16px;
-    margin-bottom: 50px;
+    margin: 50px 0 50px 100px;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     cursor: pointer;

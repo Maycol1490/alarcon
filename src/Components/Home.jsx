@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div>
       <div className='home'>
-        <p className='descricion-home'>Defender es un compromiso con nuestra labor y su confianza.</p>
+      <p className='descricion-home'>Defender es un compromiso con nuestra labor y su confianza.</p>
         <NavLink to='/About'>
           <button className='btn-home'>Asociados</button>
         </NavLink>

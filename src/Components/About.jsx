@@ -49,8 +49,8 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div>
-        <div className="card">
+  {/*     <div>
+       <div className="card">
           <div className="card_load">
             <img src={mauricoPerfil} alt="alarconabogadosyasociados.com" />
           </div>
@@ -90,7 +90,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className='noticias-perfil'>
         <h3 className='subtitle-perfil'>Noticias</h3>
         <div className='slider galeria-perfil'>
